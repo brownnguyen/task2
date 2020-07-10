@@ -14,7 +14,7 @@ input {
 html,
 body {
   font-size: 62.5%;
-  font-family: "游ゴシック, Yu Gothic, Hiragino Kaku Gothic ProN, Hiragino Kaku, Gothic Pro, メイリオ, ＭＳ ゴシック, sans-serif"; }
+  font-family: "游ゴシック", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku 　Gothic Pro", "メイリオ", "ＭＳ ゴシック", sans-serif; }
 
 .fixedTop {
   position: fixed;
@@ -1292,8 +1292,13 @@ header {
       width: 31% !important;
       border: 1px solid #cfd2db; }
 
-  .product__content .content {
-    width: 31% !important; }
+  .product__content {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important; }
+    .product__content .content {
+      padding: 0 15px;
+      width: calc(100% / 3) !important; }
 
   .buying .buying__main {
     margin: 20px; }

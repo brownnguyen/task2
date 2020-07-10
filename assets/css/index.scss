@@ -1339,8 +1339,10 @@ header {
         }
     }
     .product__content {
+        justify-content: flex-start!important;
         .content {
-            width: 31% !important;
+            padding: 0 15px;
+            width: calc(100% / 3) !important;
         }
     }
     .buying {
