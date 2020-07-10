@@ -296,7 +296,13 @@ header {
     -webkit-transform: translateX(50%);
     -moz-transform: translateX(50%);
     -ms-transform: translateX(50%);
-    -o-transform: translateX(50%); } }
+    -o-transform: translateX(50%); }
+
+  header .header__content .header__top .header__menu .bold__menu .normal {
+    margin-top: 10px; }
+
+  header .header__content .header__top .header__menu .bold__menu .bold {
+    margin-top: 6px; } }
 .dropbtn {
   background-color: #044c99;
   color: white;

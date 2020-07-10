@@ -298,6 +298,12 @@ header {
             }
         }
     }
+    header .header__content .header__top .header__menu .bold__menu .normal{
+        margin-top: 10px;
+    }
+    header .header__content .header__top .header__menu .bold__menu .bold{
+        margin-top: 6px;
+    }
 }
 .dropbtn {
     background-color: $blue;
