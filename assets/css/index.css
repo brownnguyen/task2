@@ -681,6 +681,15 @@ header {
         border-top: 2px solid #044c99;
         border-bottom: 2px solid #23adaa; }
     .product .title .button {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
       font-size: 1.4rem;
       width: 160px;
       padding: 3px 23px;
@@ -715,6 +724,7 @@ header {
           -ms-transition: all 0.5s;
           -o-transition: all 0.5s; }
         .product .title .button a i {
+          padding-left: 35%;
           color: #cfd2db; }
       .product .title .button:hover {
         background-color: #044c99; }

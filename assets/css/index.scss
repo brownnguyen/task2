@@ -692,6 +692,9 @@ header {
             }
         }
         .button {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             font-size: 1.4rem;
             width: 160px;
             padding: 3px 23px;
@@ -721,6 +724,7 @@ header {
                     -o-transition: all 0.5s;
                 }
                 i {
+                    padding-left: 35%;
                     color: $bd-grey;
                 }
             }
@@ -1339,7 +1343,7 @@ header {
         }
     }
     .product__content {
-        justify-content: flex-start!important;
+        justify-content: flex-start !important;
         .content {
             padding: 0 15px;
             width: calc(100% / 3) !important;
