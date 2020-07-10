@@ -166,7 +166,7 @@ header {
                 display: flex;
                 justify-content: flex-start;
                 list-style: none;
-                margin: 20px 0;
+                margin-bottom: 20px;
                 li {
                     padding: 0 3.5%;
                     border-right: 1px solid $bd-grey;
@@ -664,7 +664,7 @@ header {
 @include CSSIE {
     .focus .focus__left .top a .button,
     .focus .focus__right .top a .button {
-        padding: 8px 15px;
+        padding-top: 5px;
     }
 }
 .product {
@@ -692,6 +692,7 @@ header {
             }
         }
         .button {
+            height: 33px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -711,6 +712,7 @@ header {
             -ms-transition: all 0.5s;
             -o-transition: all 0.5s;
             a {
+                width: 100%;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
@@ -724,7 +726,6 @@ header {
                     -o-transition: all 0.5s;
                 }
                 i {
-                    padding-left: 35%;
                     color: $bd-grey;
                 }
             }
@@ -928,8 +929,8 @@ header {
     }
 }
 @include CSSIE {
-    .product .title .button {
-        padding: 8px 23px;
+    .product .title .button a {
+        padding-top: 6px;
     }
     .product .product__main .tabcontent .title__details .check {
         padding: 15px 20px;
@@ -1055,7 +1056,7 @@ header {
 }
 @include CSSIE {
     .pickup__product .pickup__content .details .view {
-        padding: 6px 15px;
+        padding-top: 6px;
     }
     .pickup__product .pickup__content .slick-next {
         height: 41px;
@@ -1191,15 +1192,15 @@ header {
             -moz-transform: translateY(25%);
             -ms-transform: translateY(25%);
             -o-transform: translateY(25%);
-            .buying__content {
-                .buying__left {
-                    .buying__button {
-                        a {
-                            padding: 12px 17px;
-                        }
-                    }
-                }
-            }
+            // .buying__content {
+            //     .buying__left {
+            //         .buying__button {
+            //             a {
+            //                 padding: 12px 17px;
+            //             }
+            //         }
+            //     }
+            // }
         }
     }
     .buying .buying__main .buying__content .buying__left ul li {

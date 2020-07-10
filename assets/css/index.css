@@ -173,7 +173,7 @@ header {
           -ms-flex-pack: start;
               justify-content: flex-start;
       list-style: none;
-      margin: 20px 0; }
+      margin-bottom: 20px; }
       header .header__content .header__bottom .menu__header li {
         padding: 0 3.5%;
         border-right: 1px solid #cfd2db;
@@ -653,7 +653,7 @@ header {
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .focus .focus__left .top a .button,
   .focus .focus__right .top a .button {
-    padding: 8px 15px; } }
+    padding-top: 5px; } }
 .product {
   background-color: #f5f6f8;
   padding: 0 20px; }
@@ -681,6 +681,7 @@ header {
         border-top: 2px solid #044c99;
         border-bottom: 2px solid #23adaa; }
     .product .title .button {
+      height: 33px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -706,6 +707,7 @@ header {
       -ms-transition: all 0.5s;
       -o-transition: all 0.5s; }
       .product .title .button a {
+        width: 100%;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -724,7 +726,6 @@ header {
           -ms-transition: all 0.5s;
           -o-transition: all 0.5s; }
         .product .title .button a i {
-          padding-left: 35%;
           color: #cfd2db; }
       .product .title .button:hover {
         background-color: #044c99; }
@@ -920,8 +921,8 @@ header {
         border-color: #044c99; }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .product .title .button {
-    padding: 8px 23px; }
+  .product .title .button a {
+    padding-top: 6px; }
 
   .product .product__main .tabcontent .title__details .check {
     padding: 15px 20px; } }
@@ -1033,7 +1034,7 @@ header {
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .pickup__product .pickup__content .details .view {
-    padding: 6px 15px; }
+    padding-top: 6px; }
 
   .pickup__product .pickup__content .slick-next {
     height: 41px; }
@@ -1178,8 +1179,6 @@ header {
     -moz-transform: translateY(25%);
     -ms-transform: translateY(25%);
     -o-transform: translateY(25%); }
-    .buying .buying__main .buying__content .buying__left .buying__button a {
-      padding: 12px 17px; }
 
   .buying .buying__main .buying__content .buying__left ul li {
     margin: 13px 0; } }
