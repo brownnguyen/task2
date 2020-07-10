@@ -54,7 +54,7 @@ header {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; }
-      header .header__content .header__top .logo a h1 {
+      header .header__content .header__top .logo h1 a {
         font-size: 4rem;
         color: #044c99; }
       header .header__content .header__top .logo:hover {
