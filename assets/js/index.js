@@ -33,26 +33,22 @@ function openTab(evt, tabName) {
 //     }
 // }
 
-"use strict";
-
 var check = domAll('.check');
 
 var _loop = function _loop(i) {
-  check[i].onclick = function () {
-    for (var j = 0; j < check.length; j++) {
-      console.log(j);
+    check[i].onclick = function () {
+        for (var j = 0; j < check.length; j++) {
+            console.log(j);
 
-      if (check[j].classList.contains('active')) {
-        check[j].classList.remove('active');
-      }
-    }
-
-    check[i].classList.add('active');
-  };
+            if (check[j].classList.contains('active')) {
+                check[j].classList.remove('active');
+            }
+        }
+        check[i].classList.add('active');
+    };
 };
-
 for (var i = 0; i < check.length; i++) {
-  _loop(i);
+    _loop(i);
 }
 
 
@@ -114,14 +110,6 @@ $(function () {
 });
 let topHeader = dom(".header");
 window.onscroll = function () {
-    if (window.pageYOffset > 60) {
-        topHeader.classList.add("fixedTop")
-    }
-    else {
-        topHeader.classList.remove("fixedTop")
-    }
-}
-window.onscroll = function () {
     var _curPos = window.pageYOffset;
     var _curH = $(window).height() / 2;
     if (_curPos > _curH) {
@@ -133,6 +121,12 @@ window.onscroll = function () {
         $('.backTop').css({
             display: 'none'
         });
+    }
+    if (window.pageYOffset > 60) {
+        topHeader.classList.add("fixedTop")
+    }
+    else {
+        topHeader.classList.remove("fixedTop")
     }
 }
 $('.backTop').click(function (event) {

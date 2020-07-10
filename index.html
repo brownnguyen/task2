@@ -37,11 +37,22 @@
                             <span class="bold">A</span>
                         </div>
                         <div class="language">
-                            <span class="english">English</span>
-                            <span class="japanese">中 文</span>
+                            <a href="#link">
+                                <span class="lang english">English</span>
+                            </a>
+                            <a href="#link">
+                                <span class="lang japanese active">中 文</span>
+                            </a>
                         </div>
                     </div>
                     <div class="header__wrapper">
+                        <div class="dropdown">
+                            <button class="dropbtn">Language</button>
+                            <div class="dropdown-content">
+                                <a href="#link">English</a>
+                                <a href="#link">中 文</a>
+                            </div>
+                        </div>
                         <div class="header__button"><span> </span><span> </span><span> </span></div>
                     </div>
                     <nav class="header__nav">
@@ -725,7 +736,7 @@
     <script>
         $(document).ready(function () {
             $('.slider__img__content').slick({
-                autoplay: true,
+                // autoplay: true,
                 autoplaySpeed: 2000,
                 infinite: true,
                 responsive: [
