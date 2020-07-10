@@ -103,6 +103,9 @@ header {
               -ms-flex-pack: center;
                   justify-content: center;
           margin: auto;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
           text-align: center;
           border-left: 1px solid #cfd2db; }
           header .header__content .header__top .header__menu .bold__menu .switch {
