@@ -1187,12 +1187,13 @@ header {
 @include CSSIE {
     .buying {
         .buying__main {
-            transform: translateY(25%);
-            -webkit-transform: translateY(25%);
-            -moz-transform: translateY(25%);
-            -ms-transform: translateY(25%);
-            -o-transform: translateY(25%);
-            // .buying__content {
+            transform: translateY(10%);
+            -webkit-transform: translateY(10%);
+            -moz-transform: translateY(10%);
+            -ms-transform: translateY(10%);
+            -o-transform: translateY(10%);
+            //.buying__content
+            // {
             //     .buying__left {
             //         .buying__button {
             //             a {
@@ -1307,11 +1308,17 @@ header {
             }
         }
     }
+    .main__body .slider__img .slick-prev, .main__body .slider__img .slick-next {
+        top: 14%;
+    }
+    .main__body .slider__img .slick-prev, .main__body .slider__img .slick-prev {
+        top: 14%;
+    }
 }
 @media screen and (max-width: 992px) {
     .main__body .slider__img .slick-prev,
     .main__body .slider__img .slick-next {
-        top: 33% !important;
+        top: 26% !important;
         &:before {
             font-size: 30px;
         }
@@ -1457,6 +1464,10 @@ header {
                 }
             }
         }
+    }
+    .main__body .slider__img .slick-prev,
+    .main__body .slider__img .slick-next {
+        top: 22%!important;
     }
 }
 @media screen and (max-width: 400px) {
