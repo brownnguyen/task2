@@ -37,8 +37,10 @@ header {
             align-items: center;
             .logo {
                 a {
-                    font-size: 4rem;
-                    color: $blue;
+                    h1 {
+                        font-size: 4rem;
+                        color: $blue;
+                    }
                 }
                 &:hover {
                     opacity: 0.8;
