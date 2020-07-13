@@ -16,6 +16,7 @@ function openTab(evt, tabName) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
     document.getElementById(tabName).style.display = "block";
+
     evt.currentTarget.className += " active";
 }
 
@@ -139,7 +140,6 @@ window.onscroll = function () {
     }
 }
 $('.backTop').click(function (event) {
-    console.log($('html,body'))
     $('html,body').animate({
         scrollTop: 0
     }, 1000, 'swing');
