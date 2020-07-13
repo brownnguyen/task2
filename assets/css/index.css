@@ -17,8 +17,8 @@ body {
   font-family: "游ゴシック", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku 　Gothic Pro", "メイリオ", "ＭＳ ゴシック", sans-serif; }
 
 .fixedTop {
-  -webkit-box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12); }
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 4px;
+          box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 4px; }
 
 header {
   position: fixed;
@@ -589,6 +589,7 @@ header {
             color: #cfd2db; }
           .focus .focus__left .top a .button:hover,
           .focus .focus__right .top a .button:hover {
+            border-color: #044c99;
             background-color: #044c99; }
             .focus .focus__left .top a .button:hover span,
             .focus .focus__right .top a .button:hover span {
@@ -614,7 +615,8 @@ header {
                 align-items: center;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-        padding: 20px 0;
+        padding-top: 15px;
+        padding-bottom: 20px;
         border-bottom: 1px solid #cfd2db; }
         .focus .focus__left .bottom .content .number,
         .focus .focus__left .bottom .content .right,
@@ -749,7 +751,8 @@ header {
         .product .title .button a i {
           color: #cfd2db; }
       .product .title .button:hover {
-        background-color: #044c99; }
+        background-color: #044c99;
+        border-color: #044c99; }
         .product .title .button:hover span {
           color: white;
           transform: translate(5%, 0);
@@ -884,6 +887,8 @@ header {
     .product .product__content .content {
       width: 22%; }
       .product .product__content .content .img {
+        width: 60px;
+        height: 60px;
         border: 1px solid #cfd2db;
         transition: all 0.5s;
         -webkit-transition: all 0.5s;
@@ -891,8 +896,8 @@ header {
         -ms-transition: all 0.5s;
         -o-transition: all 0.5s; }
         .product .product__content .content .img img {
-          width: 50px;
-          height: 50px; }
+          width: 100%;
+          height: 100%; }
       .product .product__content .content a {
         font-size: 1.6rem;
         display: -webkit-box;
@@ -1395,7 +1400,10 @@ header {
         width: 150px !important;
         padding: 0 8px !important; }
     .main__body .top__body:after {
-      display: none !important; } }
+      display: none !important; }
+
+  .focus .focus__left .bottom .content .right {
+    padding-top: 7px; } }
 @media screen and (max-width: 576px) {
   .product .title {
     padding: 20px 0;
@@ -1453,4 +1461,5 @@ header {
     width: 50% !important; }
   .container__all .main__body .top__body .top__content .detail {
     top: 15% !important; } }
+
 /*# sourceMappingURL=index.css.map */
