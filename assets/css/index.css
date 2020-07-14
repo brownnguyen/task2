@@ -535,7 +535,6 @@ header {
       .focus .focus__left .top h2,
       .focus .focus__right .top h2 {
         font-size: 2.4rem;
-        font-weight: 500;
         margin-right: 25px;
         margin-left: 20px;
         position: relative; }
@@ -669,7 +668,7 @@ header {
   .focus .focus__right {
     width: 27%; }
     .focus .focus__right .bottom .content {
-      height: 67px;
+      height: 62px;
       font-size: 1.4rem; }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
@@ -693,8 +692,7 @@ header {
     .product .title h2 {
       font-size: 2.4rem;
       margin-left: 20px;
-      position: relative;
-      font-weight: normal; }
+      position: relative; }
       .product .title h2:before {
         position: absolute;
         top: 45%;
@@ -961,8 +959,7 @@ header {
     margin-top: 5.3%;
     margin-left: 20px;
     font-size: 2.4rem;
-    position: relative;
-    font-weight: normal; }
+    position: relative; }
     .pickup__product .pickup__title:before {
       position: absolute;
       top: 45%;
@@ -1244,6 +1241,8 @@ header {
 
 .backTop {
   position: fixed;
+  opacity: 0;
+  visibility: hidden;
   right: 3%;
   bottom: 5%;
   transition: all 0.5s;
@@ -1463,5 +1462,4 @@ header {
     width: 50% !important; }
   .container__all .main__body .top__body .top__content .detail {
     top: 15% !important; } }
-
 /*# sourceMappingURL=index.css.map */

@@ -569,7 +569,6 @@ header {
             align-items: center;
             h2 {
                 font-size: 2.4rem;
-                font-weight: 500;
                 margin-right: 25px;
                 margin-left: 20px;
                 position: relative;
@@ -688,7 +687,7 @@ header {
         width: 27%;
         .bottom {
             .content {
-                height: 67px;
+                height: 62px;
                 font-size: 1.4rem;
             }
         }
@@ -714,7 +713,6 @@ header {
             font-size: 2.4rem;
             margin-left: 20px;
             position: relative;
-            font-weight: normal;
             &:before {
                 position: absolute;
                 top: 45%;
@@ -982,7 +980,6 @@ header {
         margin-left: 20px;
         font-size: 2.4rem;
         position: relative;
-        font-weight: normal;
         &:before {
             position: absolute;
             top: 45%;
@@ -1277,6 +1274,8 @@ header {
 }
 .backTop {
     position: fixed;
+    opacity: 0;
+    visibility: hidden;
     right: 3%;
     bottom: 5%;
     transition: all 0.5s;
