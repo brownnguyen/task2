@@ -262,7 +262,7 @@ header {
 .header__nav {
   position: absolute;
   z-index: 200;
-  top: 67px;
+  top: 74px;
   left: 0px;
   width: 100%;
   height: 0px;
@@ -1461,9 +1461,9 @@ header {
   .main__body .slider__img .slick-next {
     top: 22% !important; } }
 @media screen and (max-width: 400px) {
-  .container__all .slider__img {
+  .__all .slider__img {
     width: 50% !important; }
-  .container__all .main__body .top__body .top__content .detail {
+  .__all .main__body .top__body .top__content .detail {
     top: 15% !important; } }
 
 /*# sourceMappingURL=index.css.map */
