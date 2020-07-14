@@ -291,7 +291,10 @@ header {
     margin-right: 20px;
     text-align: left;
     list-style: none;
-    border-bottom: 1px solid white; } }
+    border-bottom: 1px solid white; }
+
+  .product .product__main .tabcontent {
+    padding-bottom: 20px !important; } }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .header .header__content .header__menu {
     transform: translateX(50%);
@@ -1462,4 +1465,5 @@ header {
     width: 50% !important; }
   .container__all .main__body .top__body .top__content .detail {
     top: 15% !important; } }
+
 /*# sourceMappingURL=index.css.map */
